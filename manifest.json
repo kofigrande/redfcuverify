@@ -1,0 +1,28 @@
+{
+  "originalUrl": "https://www.redfcuonline.org/dbank/live/app/login/consumer",
+  "title": "Redstone Federal Credit Union | Login",
+  "archiveTime": "2025-05-02T15:32:45.243Z",
+  "indexFilename": "index.html",
+  "resources": {
+    "fonts/4.ttf": "https://www.redfcuonline.org/flex-adm-app/live/branding/static/media/OpenSans-Regular.9ccd5e1b.ttf",
+    "fonts/5.ttf": "https://www.redfcuonline.org/flex-adm-app/live/branding/static/media/OpenSans-Italic.414534af.ttf",
+    "fonts/2.woff": "https://prd.dbk.ncr.com/widgets/dbk-widget-login/latest/static/media/FLUID-Icons.ab079851.woff",
+    "stylesheet_2.css": "https://resource.digitalinsight.com/branding/45/05345/css/branding.css?v=1591394444028",
+    "stylesheet_3.css": "https://www.redfcuonline.org/flex-adm-app/live/branding/static/css/UIFlexibilityBranding.css",
+    "stylesheet_4.css": "https://prd.dbk.ncr.com/widgets/dbk-widget-login/latest/static/css/LoginWidget.css",
+    "stylesheet_5.css": "https://www.redfcuonline.org/dbank/live//browser-test/browser_compatibility.css",
+    "stylesheet_6.css": "https://www.redfcuonline.org/dbank/live/static/css/59.5f0347f9.chunk.css",
+    "stylesheet_7.css": "https://www.redfcuonline.org/dbank/live/common.css",
+    "stylesheet_8.css": "https://www.redfcuonline.org/dbank/live/static/css/15.06f46345.chunk.css",
+    "stylesheet_9.css": "https://www.redfcuonline.org/dbank/live/static/css/45.cf4d7edc.chunk.css",
+    "stylesheet_10.css": "https://www.redfcuonline.org/dbank/live/static/css/11.47d96cde.chunk.css",
+    "stylesheet_11.css": "https://www.redfcuonline.org/dbank/live/static/css/main.fc5a5557.chunk.css",
+    "stylesheet_12.css": "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
+    "images/6.png": "https://resource.digitalinsight.com/mobile/45/05345/login/1571762676227/iPhone.png",
+    "images/9.png": "https://resource.digitalinsight.com/branding/45/05345/img/05345-logo-lg-md-publish.png?v=1520947850363",
+    "images/10.gif": "https://www.redfcuonline.org/mstinc/web/images/logo_ncua_sdp_full.gif",
+    "images/11.png": "https://www.redfcuonline.org/mstinc/web/images/ehl_logo_74x75_k.png",
+    "images/8.ico": "https://www.redfcuonline.org/favicon.ico",
+    "frames/0/": "about:blank"
+  }
+}
